@@ -1,27 +1,28 @@
-✔ RESTful Routing Summary
-Users
+<html><h1>✔ RESTful Routing Summary</h1>
+<pre>
+<h2>Users</h2>
 
 GET /users/index
 GET /users/get/:id
 POST /users/create
 
 
-Products
+<h2>Products</h2>
 
 GET /products/index
 GET /products/get/:id
 POST /products/create
 
 
-Orders
+<h2>Orders</h2>
 
 GET /orders/current
 POST /orders/create
+</pre>
 
+<h1>Database Schema</h1>
 
-Database Schema
-
-
+<pre>
 CREATE TABLE products (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -49,3 +50,4 @@ CREATE TABLE order_products (
     product_id INTEGER REFERENCES products(id),
     quantity INTEGER
 );
+</pre></html>
