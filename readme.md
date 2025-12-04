@@ -8,8 +8,8 @@ sql
 CREATE DATABASE storepro_test;
 CREATE DATABASE smartbuy
 </pre>
-# 2️⃣ Add database credentials to .env
-
+<h1> 2️⃣ Add database credentials to .env</h1>
+<pre>
 Create a file named .env in the project root and add:
 
 POSTGRES_HOST=127.0.0.1
@@ -22,28 +22,29 @@ POSTGRES_PASSWORD=postgres
 BCRYPT_PASSWORD=yourSecretPass
 SALT_ROUNDS=10
 TOKEN_SECRET=yourJwtSecret
+</pre>
+<h1> 3- Install Project Packages:</h1>
+<pre>npm install
+Run Database Migrations: npm run migrate-up</pre>
 
-# 3- Install Project Packages:
-npm install
-Run Database Migrations: npm run migrate-up
-
-# 4- Start the Backend Server:
+<h1>4- Start the Backend Server:</h1> 
  npm run start
 
-# 5- Ports Information
-Service	             Port
-Backend API	         3003
-PostgreSQL Database	 5432
+<h1> 5- Ports Information</h1>
+<pre>
+Service	                 Port
+Backend API	             3003
+PostgreSQL Database	     5432 </pre>
 
 
-# 6- Testing: npm run test
+<h1>6- Testing: npm run test</h1> 
 
-# Note:
- Salutations, I wanted to let you know that I currently don’t have time to split the routes into
+<h2>Note:⚠</h2> 
+ <pre>Salutations, I wanted to let you know that I currently don’t have time to split the routes into
  grouped handler files. Also, changing the file or route names could cause issues 
  when running the project. Please make sure all routes listed in REQUIREMENTS.md 
  remain present as they are to ensure proper functionality.
 
-Thanks for your understanding.
-</pre>
+Thanks for your understanding.</pre>
+
 </html>
