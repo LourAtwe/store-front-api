@@ -8,7 +8,7 @@ CREATE DATABASE storepro_test;
 
 CREATE DATABASE smartbuy
 
-# 2- Add database credentials to .env
+# 2️⃣ Add database credentials to .env
 
 Create a file named .env in the project root and add:
 
