@@ -8,7 +8,7 @@ CREATE DATABASE storepro_test;
 
 CREATE DATABASE smartbuy
 
-#2- Add database credentials to .env
+# 2- Add database credentials to .env
 
 Create a file named .env in the project root and add:
 
@@ -23,22 +23,22 @@ BCRYPT_PASSWORD=yourSecretPass
 SALT_ROUNDS=10
 TOKEN_SECRET=yourJwtSecret
 
-#3- Install Project Packages:
+# 3- Install Project Packages:
 npm install
 Run Database Migrations: npm run migrate-up
 
-#4- Start the Backend Server:
+# 4- Start the Backend Server:
  npm run start
 
-#5- Ports Information
+# 5- Ports Information
 Service	             Port
 Backend API	         3003
 PostgreSQL Database	 5432
 
 
-#6- Testing: npm run test
+# 6- Testing: npm run test
 
-#Note: Salutations,
+# Note: Salutations,
 I wanted to let you know that I currently don’t have time to split the routes into
  grouped handler files. Also, changing the file or route names could cause issues 
  when running the project. Please make sure all routes listed in REQUIREMENTS.md 
