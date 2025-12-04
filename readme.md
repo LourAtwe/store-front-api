@@ -18,7 +18,6 @@ POSTGRES_DB=smartbuy
 POSTGRES_TEST_DB=storepro_test
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
-
 BCRYPT_PASSWORD=yourSecretPass
 SALT_ROUNDS=10
 TOKEN_SECRET=yourJwtSecret
@@ -37,7 +36,8 @@ Backend API	             3003
 PostgreSQL Database	     5432 </pre>
 
 
-<h1>6- Testing: npm run test</h1> 
+<h1>6- Testing: </h1> 
+ npm run test
 
 <h2>Note:⚠</h2> 
  <pre>Salutations, I wanted to let you know that I currently don’t have time to split the routes into
