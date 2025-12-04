@@ -1,13 +1,13 @@
-# 1️⃣ Database Setup & Connection
-## 🗄 Create the database
-
+<html>
+ 
+ <h1>1️⃣ Database Setup & Connection</h1>
+<h2>🗄 Create the database</h2> 
+<pre>
 Open your SQL terminal and run:
-
 sql
 CREATE DATABASE storepro_test;
-
 CREATE DATABASE smartbuy
-
+</pre>
 # 2️⃣ Add database credentials to .env
 
 Create a file named .env in the project root and add:
@@ -38,10 +38,12 @@ PostgreSQL Database	 5432
 
 # 6- Testing: npm run test
 
-# Note: Salutations,
-I wanted to let you know that I currently don’t have time to split the routes into
+# Note:
+ Salutations, I wanted to let you know that I currently don’t have time to split the routes into
  grouped handler files. Also, changing the file or route names could cause issues 
  when running the project. Please make sure all routes listed in REQUIREMENTS.md 
  remain present as they are to ensure proper functionality.
 
 Thanks for your understanding.
+</pre>
+</html>
