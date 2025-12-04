@@ -39,12 +39,6 @@ PostgreSQL Database	     5432 </pre>
 <h1>6- Testing: </h1> 
  npm run test
 
-<h2>Note:⚠</h2> 
- <pre>Salutations, I wanted to let you know that I currently don’t have time to split the routes into
- grouped handler files. Also, changing the file or route names could cause issues 
- when running the project. Please make sure all routes listed in REQUIREMENTS.md 
- remain present as they are to ensure proper functionality.
 
-Thanks for your understanding.</pre>
 
 </html>
