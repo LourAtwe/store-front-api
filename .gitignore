@@ -1,0 +1,13 @@
+# Environment file
+.env
+
+# Database config
+database.json
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+
