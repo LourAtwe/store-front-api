@@ -3,7 +3,7 @@
 
 Open your SQL terminal and run:
 
-```sql
+sql
 CREATE DATABASE storepro_test;
 
 CREATE DATABASE smartbuy
